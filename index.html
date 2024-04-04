@@ -22,20 +22,30 @@
 
                 </div>
                 <div class="notification">
+                    notifiche
 
                 </div>
                 <div class="search">
+                    searchbar
 
                 </div>
                 <div class="listcontact">
-                    
-
+                    <div class="avatar d-flex" v-for="(contact,index) in contacts" :key="" contact.id >
+                        <img src="'./img/'+ contact.avatar" alt="contact.name" class="rounded-circle">
+                        <div>
+                            <h6>{{ contact.name}}</h6>
+                            <span>Ultimo messaggio</span>
+                        </div>
+                        <div class="time ms-auto">
+                            12.55
+                        </div>
+                    </div>
                 </div>
                 
             </div>
             <div id="chat">
                 <div class="toolbar"></div>
-        
+                chat
                 <div class="toolbar"></div>
             </div>
         </div>

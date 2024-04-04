@@ -11,14 +11,14 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-      contacts
+      contacts: contacts
     }
   },
   methods: {
 
   },
   computed: {
-    
+
   },
   mounted() {
     console.log(this.contacts);

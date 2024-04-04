@@ -43,4 +43,12 @@ img {
  }
  .listcontact{
     height: calc(100% - 190px);
+
+ }
+.avatar img{
+    width: 40px;
+}
+ .avatar{
+    padding: 10px;
+    border-bottom: 1px solid grey;
  }
