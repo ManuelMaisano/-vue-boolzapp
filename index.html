@@ -11,7 +11,7 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-    <script type="module" src="./js/script.js"></script>
+    <script type="module" src="./js/script.js" defer></script>
     <title>Boolzapp</title>
 </head>
 <body>
@@ -30,7 +30,7 @@
 
                 </div>
                 <div class="listcontact">
-                    <div class="avatar d-flex" v-for="(contact,index) in contacts" :key="" contact.id >
+                    <div class="avatar d-flex" :class="{'active' : activeContactId === contact.id}" v-for="(contact,index) in contacts" :key="" contact.id >
                         <img src="'./img/'+ contact.avatar" alt="contact.name" class="rounded-circle">
                         <div>
                             <h6>{{ contact.name}}</h6>
