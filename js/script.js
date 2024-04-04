@@ -14,8 +14,12 @@ createApp({
       contacts
     }
   },
-  methods: {},
-  computed: {},
+  methods: {
+
+  },
+  computed: {
+    
+  },
   mounted() {
     console.log(this.contacts);
   },

@@ -1,12 +1,5 @@
 /*--GENERAL---*/
 
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
 body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(167, 149, 149);
@@ -21,3 +14,33 @@ img {
     height: 100%;
     width: 100%;
 }
+
+/*----MAIN----*/
+
+#contacts{
+    width: 40%;
+    overflow-y: auto;
+
+}
+
+#chat{
+    width: 60%;
+    height: calc(100% - 140px);
+    overflow-y: auto;
+    padding: 20px;
+
+}
+.toolbar{
+    height: 70px;
+    background-color: lightgrey;
+}
+ .notification{
+    height: 70px;
+    background-color: lightblue;
+ }
+ .search{
+    height: 50px;
+ }
+ .listcontact{
+    height: calc(100% - 190px);
+ }
