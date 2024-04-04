@@ -65,7 +65,8 @@ nav {
 }
 .toolbar{
     height: 70px;
-    background-color: lightgrey;
+    background-color: #EAEAEA;
+ 
 }
  .notification{
     height: 70px;
