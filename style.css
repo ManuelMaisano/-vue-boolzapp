@@ -1,9 +1,7 @@
 /*--GENERAL---*/
 
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(167, 149, 149);
-}
+
+
 #app {
     height: 100vh;
     width: 100%;
@@ -38,6 +36,24 @@ nav {
     background-color: #EAEAEA;
 }
 
+#notifiche {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto 10px;
+    width: 10%;
+    aspect-ratio: 1 / 1;
+    background-color: white;
+    border-radius: 50%;
+}
+
+#notifiche i {
+    color: rgb(142, 218, 252);
+}
+.grey{
+    color: #5C788B;
+}
+
 #rightside{
     width: 60%;
     
@@ -54,6 +70,10 @@ nav {
  .notification{
     height: 70px;
     background-color: lightblue;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 80px;
  }
  .search{
     height: 50px;
