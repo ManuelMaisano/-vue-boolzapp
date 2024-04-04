@@ -15,6 +15,10 @@ img {
     height: 100%;
     width: 100%;
 }
+i {
+    color: #B1B1B1;
+    margin: auto 10px;
+}
 
 /*----MAIN----*/
 
@@ -22,6 +26,16 @@ img {
     width: 40%;
     overflow-y: auto;
 
+}
+nav img{
+    width:90px;
+    padding: 15px;
+}
+nav {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAEAEA;
 }
 
 #rightside{
